@@ -56,3 +56,259 @@ If you want to disable this check, just set the property [spring.cloud.compatibi
 2021-10-17 16:30:38.636  INFO 13308 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
 2021-10-17 16:30:38.686  INFO 13308 --- [main] c.e.a.AlfaBankTestingApplication         : Started AlfaBankTestingApplication in 8.316 seconds (JVM running for 9.439)
 2021-10-17 16:31:35.374  INFO 13308 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-17 16:46:28.939  INFO 9496 --- [main] c.e.a.AlfaBankTestingApplication         : Starting AlfaBankTestingApplication using Java 16.0.1 on tk-eco-pc with PID 9496 (D:\! JAVA\alfa-bank-testing\build\classes\java\main started by Тимур in D:\! JAVA\alfa-bank-testing)
+2021-10-17 16:46:28.945  INFO 9496 --- [main] c.e.a.AlfaBankTestingApplication         : No active profile set, falling back to default profiles: default
+2021-10-17 16:46:30.406  INFO 9496 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=ed7cbee6-5e71-384c-bfbd-3cb6158e2a96
+2021-10-17 16:46:31.153  INFO 9496 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-10-17 16:46:31.178  INFO 9496 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-17 16:46:31.179  INFO 9496 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-17 16:46:31.428  INFO 9496 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-17 16:46:31.428  INFO 9496 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2323 ms
+2021-10-17 16:46:32.474  INFO 9496 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-10-17 16:46:32.532  INFO 9496 --- [main] c.e.a.AlfaBankTestingApplication         : Started AlfaBankTestingApplication in 4.484 seconds (JVM running for 5.309)
+2021-10-17 16:46:41.551  INFO 9496 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-17 16:50:02.510  INFO 10080 --- [main] c.e.a.AlfaBankTestingApplication         : Starting AlfaBankTestingApplication using Java 16.0.1 on tk-eco-pc with PID 10080 (D:\! JAVA\alfa-bank-testing\build\classes\java\main started by Тимур in D:\! JAVA\alfa-bank-testing)
+2021-10-17 16:50:02.516  INFO 10080 --- [main] c.e.a.AlfaBankTestingApplication         : No active profile set, falling back to default profiles: default
+2021-10-17 16:50:04.201  INFO 10080 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=ed7cbee6-5e71-384c-bfbd-3cb6158e2a96
+2021-10-17 16:50:05.003  INFO 10080 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-10-17 16:50:05.028  INFO 10080 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-17 16:50:05.029  INFO 10080 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-17 16:50:05.290  INFO 10080 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-17 16:50:05.292  INFO 10080 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2573 ms
+2021-10-17 16:50:06.639  INFO 10080 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-10-17 16:50:06.707  INFO 10080 --- [main] c.e.a.AlfaBankTestingApplication         : Started AlfaBankTestingApplication in 5.147 seconds (JVM running for 5.803)
+2021-10-17 16:50:21.249  INFO 10080 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-17 16:58:22.980  INFO 8808 --- [main] c.e.a.AlfaBankTestingApplication         : Starting AlfaBankTestingApplication using Java 16.0.1 on tk-eco-pc with PID 8808 (D:\! JAVA\alfa-bank-testing\build\classes\java\main started by Тимур in D:\! JAVA\alfa-bank-testing)
+2021-10-17 16:58:22.990  INFO 8808 --- [main] c.e.a.AlfaBankTestingApplication         : No active profile set, falling back to default profiles: default
+2021-10-17 16:58:24.862  INFO 8808 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=ed7cbee6-5e71-384c-bfbd-3cb6158e2a96
+2021-10-17 16:58:25.408  INFO 8808 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-10-17 16:58:25.428  INFO 8808 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-17 16:58:25.429  INFO 8808 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-17 16:58:25.632  INFO 8808 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-17 16:58:25.634  INFO 8808 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2484 ms
+2021-10-17 16:58:26.534  INFO 8808 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-10-17 16:58:26.594  INFO 8808 --- [main] c.e.a.AlfaBankTestingApplication         : Started AlfaBankTestingApplication in 4.404 seconds (JVM running for 5.006)
+2021-10-17 16:58:37.970  INFO 8808 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-17 17:00:04.110  INFO 13076 --- [main] c.e.a.AlfaBankTestingApplication         : Starting AlfaBankTestingApplication using Java 16.0.1 on tk-eco-pc with PID 13076 (D:\! JAVA\alfa-bank-testing\build\classes\java\main started by Тимур in D:\! JAVA\alfa-bank-testing)
+2021-10-17 17:00:04.126  INFO 13076 --- [main] c.e.a.AlfaBankTestingApplication         : No active profile set, falling back to default profiles: default
+2021-10-17 17:00:05.410  INFO 13076 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=ed7cbee6-5e71-384c-bfbd-3cb6158e2a96
+2021-10-17 17:00:05.988  INFO 13076 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-10-17 17:00:06.004  INFO 13076 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-17 17:00:06.005  INFO 13076 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-17 17:00:06.193  INFO 13076 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-17 17:00:06.194  INFO 13076 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1941 ms
+2021-10-17 17:00:07.074  INFO 13076 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-10-17 17:00:07.124  INFO 13076 --- [main] c.e.a.AlfaBankTestingApplication         : Started AlfaBankTestingApplication in 3.726 seconds (JVM running for 4.31)
+2021-10-17 17:00:21.600  INFO 13076 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-17 17:04:59.671  INFO 12612 --- [main] c.e.a.AlfaBankTestingApplication         : Starting AlfaBankTestingApplication using Java 16.0.1 on tk-eco-pc with PID 12612 (D:\! JAVA\alfa-bank-testing\build\classes\java\main started by Тимур in D:\! JAVA\alfa-bank-testing)
+2021-10-17 17:04:59.681  INFO 12612 --- [main] c.e.a.AlfaBankTestingApplication         : No active profile set, falling back to default profiles: default
+2021-10-17 17:05:01.083  INFO 12612 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=ed7cbee6-5e71-384c-bfbd-3cb6158e2a96
+2021-10-17 17:05:01.762  INFO 12612 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-10-17 17:05:01.779  INFO 12612 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-17 17:05:01.782  INFO 12612 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-17 17:05:01.987  INFO 12612 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-17 17:05:01.988  INFO 12612 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2186 ms
+2021-10-17 17:05:02.987  INFO 12612 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-10-17 17:05:03.029  INFO 12612 --- [main] c.e.a.AlfaBankTestingApplication         : Started AlfaBankTestingApplication in 4.152 seconds (JVM running for 5.008)
+2021-10-17 17:05:30.688  INFO 12612 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-17 17:06:47.293  INFO 10616 --- [main] c.e.a.AlfaBankTestingApplication         : Starting AlfaBankTestingApplication using Java 16.0.1 on tk-eco-pc with PID 10616 (D:\! JAVA\alfa-bank-testing\build\classes\java\main started by Тимур in D:\! JAVA\alfa-bank-testing)
+2021-10-17 17:06:47.302  INFO 10616 --- [main] c.e.a.AlfaBankTestingApplication         : No active profile set, falling back to default profiles: default
+2021-10-17 17:06:48.599  INFO 10616 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=ed7cbee6-5e71-384c-bfbd-3cb6158e2a96
+2021-10-17 17:06:49.145  INFO 10616 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-10-17 17:06:49.162  INFO 10616 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-17 17:06:49.163  INFO 10616 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-17 17:06:49.348  INFO 10616 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-17 17:06:49.349  INFO 10616 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1942 ms
+2021-10-17 17:06:50.258  INFO 10616 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-10-17 17:06:50.301  INFO 10616 --- [main] c.e.a.AlfaBankTestingApplication         : Started AlfaBankTestingApplication in 3.712 seconds (JVM running for 4.293)
+2021-10-17 17:07:04.034  INFO 10616 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-17 17:11:59.038  INFO 4364 --- [main] c.e.a.AlfaBankTestingApplication         : Starting AlfaBankTestingApplication using Java 16.0.1 on tk-eco-pc with PID 4364 (D:\! JAVA\alfa-bank-testing\build\classes\java\main started by Тимур in D:\! JAVA\alfa-bank-testing)
+2021-10-17 17:11:59.049 DEBUG 4364 --- [main] c.e.a.AlfaBankTestingApplication         : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-17 17:11:59.050  INFO 4364 --- [main] c.e.a.AlfaBankTestingApplication         : No active profile set, falling back to default profiles: default
+2021-10-17 17:12:00.707  INFO 4364 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=ed7cbee6-5e71-384c-bfbd-3cb6158e2a96
+2021-10-17 17:12:01.425  INFO 4364 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-10-17 17:12:01.445  INFO 4364 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-17 17:12:01.446  INFO 4364 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-17 17:12:01.648  INFO 4364 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-17 17:12:01.648  INFO 4364 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2476 ms
+2021-10-17 17:12:02.699  INFO 4364 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-10-17 17:12:02.755  INFO 4364 --- [main] c.e.a.AlfaBankTestingApplication         : Started AlfaBankTestingApplication in 4.692 seconds (JVM running for 5.5)
+2021-10-17 17:12:20.932  INFO 4364 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-17 17:12:28.973 DEBUG 4364 --- [http-nio-8080-exec-2] c.e.alfabanktesting.MainController       : Executing method compareCurrency(). Custom currency is USD
+2021-10-17 17:12:30.467 DEBUG 4364 --- [http-nio-8080-exec-2] c.e.alfabanktesting.MainController       : Executing method getGifList(). RateHigher is 0
+2021-10-17 17:12:30.468 DEBUG 4364 --- [http-nio-8080-exec-2] c.e.alfabanktesting.MainController       : Executing method getAllGifsJson(). RateHigher is 0
+2021-10-17 17:12:30.837 DEBUG 4364 --- [http-nio-8080-exec-2] c.e.alfabanktesting.MainController       : Executing method getRandomGif(). Size is 10
+2021-10-17 17:12:59.560 DEBUG 4364 --- [http-nio-8080-exec-4] c.e.alfabanktesting.MainController       : Executing method compareCurrency(). Custom currency is JPY
+2021-10-17 17:13:00.243 DEBUG 4364 --- [http-nio-8080-exec-4] c.e.alfabanktesting.MainController       : Executing method getGifList(). RateHigher is 0
+2021-10-17 17:13:00.244 DEBUG 4364 --- [http-nio-8080-exec-4] c.e.alfabanktesting.MainController       : Executing method getAllGifsJson(). RateHigher is 0
+2021-10-17 17:13:00.493 DEBUG 4364 --- [http-nio-8080-exec-4] c.e.alfabanktesting.MainController       : Executing method getRandomGif(). Size is 10
+2021-10-17 17:15:15.989  INFO 12136 --- [main] c.e.a.AlfaBankTestingApplication         : Starting AlfaBankTestingApplication using Java 16.0.1 on tk-eco-pc with PID 12136 (D:\! JAVA\alfa-bank-testing\build\classes\java\main started by Тимур in D:\! JAVA\alfa-bank-testing)
+2021-10-17 17:15:16.012 DEBUG 12136 --- [main] c.e.a.AlfaBankTestingApplication         : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-17 17:15:16.013  INFO 12136 --- [main] c.e.a.AlfaBankTestingApplication         : No active profile set, falling back to default profiles: default
+2021-10-17 17:15:17.554  INFO 12136 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=ed7cbee6-5e71-384c-bfbd-3cb6158e2a96
+2021-10-17 17:15:18.215  INFO 12136 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-10-17 17:15:18.239  INFO 12136 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-17 17:15:18.240  INFO 12136 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-17 17:15:18.458  INFO 12136 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-17 17:15:18.459  INFO 12136 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2301 ms
+2021-10-17 17:15:19.528  INFO 12136 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-10-17 17:15:19.592  INFO 12136 --- [main] c.e.a.AlfaBankTestingApplication         : Started AlfaBankTestingApplication in 4.599 seconds (JVM running for 5.353)
+2021-10-17 17:15:29.934  INFO 12136 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-17 17:15:29.992 DEBUG 12136 --- [http-nio-8080-exec-1] c.e.alfabanktesting.MainController       : Executing method compareCurrency(). Custom currency is EUR
+2021-10-17 17:15:31.518 DEBUG 12136 --- [http-nio-8080-exec-1] c.e.alfabanktesting.MainController       : Executing method getGifList(). RateHigher is 0
+2021-10-17 17:15:31.524 DEBUG 12136 --- [http-nio-8080-exec-1] c.e.alfabanktesting.MainController       : Executing method getAllGifsJson(). RateHigher is 0
+2021-10-17 17:15:32.155 ERROR 12136 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is feign.FeignException$Forbidden: [403 Forbidden] during [GET] to [https://api.giphy.com/v1/gifs/search?api_key=$&q=meditation&limit=10&offset=0&rating=g&lang=en] [GifService#getEqualGif()]: [{"message":"Invalid authentication credentials"}
+]] with root cause
+
+feign.FeignException$Forbidden: [403 Forbidden] during [GET] to [https://api.giphy.com/v1/gifs/search?api_key=$&q=meditation&limit=10&offset=0&rating=g&lang=en] [GifService#getEqualGif()]: [{"message":"Invalid authentication credentials"}
+]
+	at feign.FeignException.clientErrorStatus(FeignException.java:199) ~[feign-core-10.12.jar:na]
+	at feign.FeignException.errorStatus(FeignException.java:177) ~[feign-core-10.12.jar:na]
+	at feign.FeignException.errorStatus(FeignException.java:169) ~[feign-core-10.12.jar:na]
+	at feign.codec.ErrorDecoder$Default.decode(ErrorDecoder.java:92) ~[feign-core-10.12.jar:na]
+	at feign.AsyncResponseHandler.handleResponse(AsyncResponseHandler.java:96) ~[feign-core-10.12.jar:na]
+	at feign.SynchronousMethodHandler.executeAndDecode(SynchronousMethodHandler.java:138) ~[feign-core-10.12.jar:na]
+	at feign.SynchronousMethodHandler.invoke(SynchronousMethodHandler.java:89) ~[feign-core-10.12.jar:na]
+	at feign.ReflectiveFeign$FeignInvocationHandler.invoke(ReflectiveFeign.java:100) ~[feign-core-10.12.jar:na]
+	at jdk.proxy2/jdk.proxy2.$Proxy65.getEqualGif(Unknown Source) ~[na:na]
+	at com.example.alfabanktesting.MainController.getAllGifsJson(MainController.java:72) ~[main/:na]
+	at com.example.alfabanktesting.MainController.getGifList(MainController.java:63) ~[main/:na]
+	at com.example.alfabanktesting.MainController.compareCurrency(MainController.java:57) ~[main/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.10.jar:5.3.10]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.10.jar:5.3.10]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.10.jar:5.3.10]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.10.jar:5.3.10]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067) ~[spring-webmvc-5.3.10.jar:5.3.10]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.10.jar:5.3.10]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.10.jar:5.3.10]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.10.jar:5.3.10]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655) ~[tomcat-embed-core-9.0.53.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.10.jar:5.3.10]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.53.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.53.jar:9.0.53]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at java.base/java.lang.Thread.run(Thread.java:831) ~[na:na]
+
+2021-10-17 17:15:50.640 DEBUG 12136 --- [http-nio-8080-exec-3] c.e.alfabanktesting.MainController       : Executing method compareCurrency(). Custom currency is JPY
+2021-10-17 17:15:51.271 DEBUG 12136 --- [http-nio-8080-exec-3] c.e.alfabanktesting.MainController       : Executing method getGifList(). RateHigher is 0
+2021-10-17 17:15:51.273 DEBUG 12136 --- [http-nio-8080-exec-3] c.e.alfabanktesting.MainController       : Executing method getAllGifsJson(). RateHigher is 0
+2021-10-17 17:15:51.774 ERROR 12136 --- [http-nio-8080-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is feign.FeignException$Forbidden: [403 Forbidden] during [GET] to [https://api.giphy.com/v1/gifs/search?api_key=$&q=meditation&limit=10&offset=0&rating=g&lang=en] [GifService#getEqualGif()]: [{"message":"Invalid authentication credentials"}
+]] with root cause
+
+feign.FeignException$Forbidden: [403 Forbidden] during [GET] to [https://api.giphy.com/v1/gifs/search?api_key=$&q=meditation&limit=10&offset=0&rating=g&lang=en] [GifService#getEqualGif()]: [{"message":"Invalid authentication credentials"}
+]
+	at feign.FeignException.clientErrorStatus(FeignException.java:199) ~[feign-core-10.12.jar:na]
+	at feign.FeignException.errorStatus(FeignException.java:177) ~[feign-core-10.12.jar:na]
+	at feign.FeignException.errorStatus(FeignException.java:169) ~[feign-core-10.12.jar:na]
+	at feign.codec.ErrorDecoder$Default.decode(ErrorDecoder.java:92) ~[feign-core-10.12.jar:na]
+	at feign.AsyncResponseHandler.handleResponse(AsyncResponseHandler.java:96) ~[feign-core-10.12.jar:na]
+	at feign.SynchronousMethodHandler.executeAndDecode(SynchronousMethodHandler.java:138) ~[feign-core-10.12.jar:na]
+	at feign.SynchronousMethodHandler.invoke(SynchronousMethodHandler.java:89) ~[feign-core-10.12.jar:na]
+	at feign.ReflectiveFeign$FeignInvocationHandler.invoke(ReflectiveFeign.java:100) ~[feign-core-10.12.jar:na]
+	at jdk.proxy2/jdk.proxy2.$Proxy65.getEqualGif(Unknown Source) ~[na:na]
+	at com.example.alfabanktesting.MainController.getAllGifsJson(MainController.java:72) ~[main/:na]
+	at com.example.alfabanktesting.MainController.getGifList(MainController.java:63) ~[main/:na]
+	at com.example.alfabanktesting.MainController.compareCurrency(MainController.java:57) ~[main/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.10.jar:5.3.10]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.10.jar:5.3.10]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.10.jar:5.3.10]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.10.jar:5.3.10]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067) ~[spring-webmvc-5.3.10.jar:5.3.10]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.10.jar:5.3.10]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.10.jar:5.3.10]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.10.jar:5.3.10]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655) ~[tomcat-embed-core-9.0.53.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.10.jar:5.3.10]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.53.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.53.jar:9.0.53]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at java.base/java.lang.Thread.run(Thread.java:831) ~[na:na]
+
+2021-10-17 17:16:32.484  INFO 8772 --- [main] c.e.a.AlfaBankTestingApplication         : Starting AlfaBankTestingApplication using Java 16.0.1 on tk-eco-pc with PID 8772 (D:\! JAVA\alfa-bank-testing\build\classes\java\main started by Тимур in D:\! JAVA\alfa-bank-testing)
+2021-10-17 17:16:32.491 DEBUG 8772 --- [main] c.e.a.AlfaBankTestingApplication         : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-17 17:16:32.492  INFO 8772 --- [main] c.e.a.AlfaBankTestingApplication         : No active profile set, falling back to default profiles: default
+2021-10-17 17:16:34.097  INFO 8772 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=ed7cbee6-5e71-384c-bfbd-3cb6158e2a96
+2021-10-17 17:16:34.767  INFO 8772 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-10-17 17:16:34.788  INFO 8772 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-17 17:16:34.789  INFO 8772 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-17 17:16:35.007  INFO 8772 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-17 17:16:35.008  INFO 8772 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2339 ms
+2021-10-17 17:16:36.139  INFO 8772 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-10-17 17:16:36.197  INFO 8772 --- [main] c.e.a.AlfaBankTestingApplication         : Started AlfaBankTestingApplication in 4.741 seconds (JVM running for 5.45)
+2021-10-17 17:16:49.477  INFO 8772 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-17 17:16:49.529 DEBUG 8772 --- [http-nio-8080-exec-1] c.e.alfabanktesting.MainController       : Executing method compareCurrency(). Custom currency is EUR
+2021-10-17 17:16:51.061 DEBUG 8772 --- [http-nio-8080-exec-1] c.e.alfabanktesting.MainController       : Executing method getGifList(). RateHigher is 0
+2021-10-17 17:16:51.062 DEBUG 8772 --- [http-nio-8080-exec-1] c.e.alfabanktesting.MainController       : Executing method getAllGifsJson(). RateHigher is 0
+2021-10-17 17:16:51.357 DEBUG 8772 --- [http-nio-8080-exec-1] c.e.alfabanktesting.MainController       : Executing method getRandomGif(). Size is 10
