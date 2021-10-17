@@ -7,12 +7,12 @@
 
 Запуск:
 
-`git clone https://github.com/agenttim/alfa-bank-testing.git </br>
+git clone https://github.com/agenttim/alfa-bank-testing.git </br>
 cd exchange-rates </br>
 gradle clean </br>
 gradle build </br>
 cd build/libs </br>
-java -jar exchange-rates-0.0.1-SNAPSHOT.jar </br>`
+java -jar exchange-rates-0.0.1-SNAPSHOT.jar </br>
 Далее в браузере открываем: http://localhost:8080/compare/USD </br>
 (вместо USD можем ввести любой код из перечня поддерживаемых валют, представленного на сайте https://docs.openexchangerates.org/docs/supported-currencies)
 
