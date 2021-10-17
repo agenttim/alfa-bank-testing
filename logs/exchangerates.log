@@ -312,3 +312,126 @@ feign.FeignException$Forbidden: [403 Forbidden] during [GET] to [https://api.gip
 2021-10-17 17:16:51.061 DEBUG 8772 --- [http-nio-8080-exec-1] c.e.alfabanktesting.MainController       : Executing method getGifList(). RateHigher is 0
 2021-10-17 17:16:51.062 DEBUG 8772 --- [http-nio-8080-exec-1] c.e.alfabanktesting.MainController       : Executing method getAllGifsJson(). RateHigher is 0
 2021-10-17 17:16:51.357 DEBUG 8772 --- [http-nio-8080-exec-1] c.e.alfabanktesting.MainController       : Executing method getRandomGif(). Size is 10
+2021-10-17 18:01:32.322  INFO 11200 --- [main] c.e.a.AlfaBankTestingApplication         : Starting AlfaBankTestingApplication using Java 16.0.1 on tk-eco-pc with PID 11200 (D:\! JAVA\alfa-bank-testing\build\classes\java\main started by Тимур in D:\! JAVA\alfa-bank-testing)
+2021-10-17 18:01:32.328 DEBUG 11200 --- [main] c.e.a.AlfaBankTestingApplication         : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-17 18:01:32.328  INFO 11200 --- [main] c.e.a.AlfaBankTestingApplication         : No active profile set, falling back to default profiles: default
+2021-10-17 18:01:34.209  INFO 11200 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=ed7cbee6-5e71-384c-bfbd-3cb6158e2a96
+2021-10-17 18:01:34.937  INFO 11200 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-10-17 18:01:34.962  INFO 11200 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-17 18:01:34.963  INFO 11200 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-17 18:01:35.229  INFO 11200 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-17 18:01:35.230  INFO 11200 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2701 ms
+2021-10-17 18:01:36.375  INFO 11200 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-10-17 18:01:36.437  INFO 11200 --- [main] c.e.a.AlfaBankTestingApplication         : Started AlfaBankTestingApplication in 5.174 seconds (JVM running for 5.963)
+2021-10-17 18:01:47.717  INFO 11200 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-17 18:02:37.162 DEBUG 11200 --- [http-nio-8080-exec-4] c.e.alfabanktesting.MainController       : Executing method compareCurrency(). Custom currency is EUR
+2021-10-17 18:02:40.445 DEBUG 11200 --- [http-nio-8080-exec-4] c.e.alfabanktesting.MainController       : Executing method getGifList(). RateHigher is 0
+2021-10-17 18:02:40.447 DEBUG 11200 --- [http-nio-8080-exec-4] c.e.alfabanktesting.MainController       : Executing method getAllGifsJson(). RateHigher is 0
+2021-10-17 18:02:40.752 DEBUG 11200 --- [http-nio-8080-exec-4] c.e.alfabanktesting.MainController       : Executing method getRandomGif(). Size is 10
+2021-10-17 18:02:51.927 DEBUG 11200 --- [http-nio-8080-exec-7] c.e.alfabanktesting.MainController       : Executing method compareCurrency(). Custom currency is RUB
+2021-10-17 18:02:52.615 DEBUG 11200 --- [http-nio-8080-exec-7] c.e.alfabanktesting.MainController       : Executing method getGifList(). RateHigher is 0
+2021-10-17 18:02:52.616 DEBUG 11200 --- [http-nio-8080-exec-7] c.e.alfabanktesting.MainController       : Executing method getAllGifsJson(). RateHigher is 0
+2021-10-17 18:02:52.843 DEBUG 11200 --- [http-nio-8080-exec-7] c.e.alfabanktesting.MainController       : Executing method getRandomGif(). Size is 10
+2021-10-17 18:05:01.301  INFO 4244 --- [Test worker] c.e.a.AlfaBankTestingApplicationTests    : Starting AlfaBankTestingApplicationTests using Java 16.0.1 on tk-eco-pc with PID 4244 (started by Тимур in D:\! JAVA\alfa-bank-testing)
+2021-10-17 18:05:01.304 DEBUG 4244 --- [Test worker] c.e.a.AlfaBankTestingApplicationTests    : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-17 18:05:01.305  INFO 4244 --- [Test worker] c.e.a.AlfaBankTestingApplicationTests    : No active profile set, falling back to default profiles: default
+2021-10-17 18:05:03.212  INFO 4244 --- [Test worker] o.s.cloud.context.scope.GenericScope     : BeanFactory id=5d9edb3d-d42b-36b3-bd01-3219a5548a0e
+2021-10-17 18:05:05.557  INFO 4244 --- [Test worker] c.e.a.AlfaBankTestingApplicationTests    : Started AlfaBankTestingApplicationTests in 5.668 seconds (JVM running for 8.38)
+2021-10-17 18:21:49.965  INFO 11484 --- [main] c.e.a.AlfaBankTestingApplication         : Starting AlfaBankTestingApplication using Java 16.0.1 on tk-eco-pc with PID 11484 (D:\! JAVA\alfa-bank-testing\build\classes\java\main started by Тимур in D:\! JAVA\alfa-bank-testing)
+2021-10-17 18:21:49.997 DEBUG 11484 --- [main] c.e.a.AlfaBankTestingApplication         : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-17 18:21:49.998  INFO 11484 --- [main] c.e.a.AlfaBankTestingApplication         : No active profile set, falling back to default profiles: default
+2021-10-17 18:21:51.547  INFO 11484 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=ed7cbee6-5e71-384c-bfbd-3cb6158e2a96
+2021-10-17 18:21:52.276  INFO 11484 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-10-17 18:21:52.299  INFO 11484 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-17 18:21:52.300  INFO 11484 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-17 18:21:52.538  INFO 11484 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-17 18:21:52.539  INFO 11484 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2379 ms
+2021-10-17 18:21:53.617  WARN 11484 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2021-10-17 18:21:53.623  INFO 11484 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-10-17 18:21:53.647  INFO 11484 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-10-17 18:21:53.677 ERROR 11484 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2021-10-17 18:24:02.452  INFO 9468 --- [main] c.e.a.AlfaBankTestingApplication         : Starting AlfaBankTestingApplication using Java 16.0.1 on tk-eco-pc with PID 9468 (D:\! JAVA\alfa-bank-testing\build\classes\java\main started by Тимур in D:\! JAVA\alfa-bank-testing)
+2021-10-17 18:24:02.473 DEBUG 9468 --- [main] c.e.a.AlfaBankTestingApplication         : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-17 18:24:02.473  INFO 9468 --- [main] c.e.a.AlfaBankTestingApplication         : No active profile set, falling back to default profiles: default
+2021-10-17 18:24:04.091  INFO 9468 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=ed7cbee6-5e71-384c-bfbd-3cb6158e2a96
+2021-10-17 18:24:04.740  INFO 9468 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-10-17 18:24:04.762  INFO 9468 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-17 18:24:04.763  INFO 9468 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-17 18:24:04.984  INFO 9468 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-17 18:24:04.985  INFO 9468 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2372 ms
+2021-10-17 18:24:06.080  INFO 9468 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-10-17 18:24:06.141  INFO 9468 --- [main] c.e.a.AlfaBankTestingApplication         : Started AlfaBankTestingApplication in 4.657 seconds (JVM running for 5.353)
+2021-10-17 18:24:15.503  INFO 9468 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-17 18:24:21.125 DEBUG 9468 --- [http-nio-8080-exec-2] c.e.alfabanktesting.MainController       : Executing method compareCurrency(). Custom currency is USD
+2021-10-17 18:24:22.821 DEBUG 9468 --- [http-nio-8080-exec-2] c.e.alfabanktesting.MainController       : Executing method getGifList(). RateHigher is 0
+2021-10-17 18:24:22.822 DEBUG 9468 --- [http-nio-8080-exec-2] c.e.alfabanktesting.MainController       : Executing method getAllGifsJson(). RateHigher is 0
+2021-10-17 18:24:23.118 DEBUG 9468 --- [http-nio-8080-exec-2] c.e.alfabanktesting.MainController       : Executing method getRandomGif(). Size is 10
+2021-10-17 18:27:47.098  INFO 10072 --- [main] c.e.a.AlfaBankTestingApplication         : Starting AlfaBankTestingApplication using Java 16.0.1 on tk-eco-pc with PID 10072 (D:\! JAVA\alfa-bank-testing\build\classes\java\main started by Тимур in D:\! JAVA\alfa-bank-testing)
+2021-10-17 18:27:47.105 DEBUG 10072 --- [main] c.e.a.AlfaBankTestingApplication         : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-17 18:27:47.106  INFO 10072 --- [main] c.e.a.AlfaBankTestingApplication         : No active profile set, falling back to default profiles: default
+2021-10-17 18:27:49.436  INFO 10072 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=ed7cbee6-5e71-384c-bfbd-3cb6158e2a96
+2021-10-17 18:27:50.104  INFO 10072 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-10-17 18:27:50.124  INFO 10072 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-17 18:27:50.125  INFO 10072 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-17 18:27:50.334  INFO 10072 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-17 18:27:50.335  INFO 10072 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3091 ms
+2021-10-17 18:27:51.442  INFO 10072 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-10-17 18:27:51.496  INFO 10072 --- [main] c.e.a.AlfaBankTestingApplication         : Started AlfaBankTestingApplication in 5.423 seconds (JVM running for 6.081)
+2021-10-17 18:28:07.217  INFO 10072 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-17 18:28:12.755 DEBUG 10072 --- [http-nio-8080-exec-2] c.e.alfabanktesting.MainController       : Executing method compareCurrency(). Custom currency is RUB
+2021-10-17 18:28:14.337 DEBUG 10072 --- [http-nio-8080-exec-2] c.e.alfabanktesting.MainController       : Executing method getGifList(). RateHigher is 0
+2021-10-17 18:28:14.338 DEBUG 10072 --- [http-nio-8080-exec-2] c.e.alfabanktesting.MainController       : Executing method getAllGifsJson(). RateHigher is 0
+2021-10-17 18:28:14.635 DEBUG 10072 --- [http-nio-8080-exec-2] c.e.alfabanktesting.MainController       : Executing method getRandomGif(). Size is 10
+2021-10-17 18:32:06.812  INFO 12184 --- [main] c.e.a.AlfaBankTestingApplication         : Starting AlfaBankTestingApplication using Java 16.0.1 on tk-eco-pc with PID 12184 (D:\! JAVA\alfa-bank-testing\build\classes\java\main started by Тимур in D:\! JAVA\alfa-bank-testing)
+2021-10-17 18:32:06.819 DEBUG 12184 --- [main] c.e.a.AlfaBankTestingApplication         : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-17 18:32:06.822  INFO 12184 --- [main] c.e.a.AlfaBankTestingApplication         : No active profile set, falling back to default profiles: default
+2021-10-17 18:32:09.194  INFO 12184 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=b306841e-fb3a-312c-ba5f-a888d9979ee2
+2021-10-17 18:32:09.948  INFO 12184 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-10-17 18:32:09.974  INFO 12184 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-17 18:32:09.976  INFO 12184 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-17 18:32:10.273  INFO 12184 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-17 18:32:10.274  INFO 12184 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3269 ms
+2021-10-17 18:32:12.776  INFO 12184 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2021-10-17 18:32:12.909  INFO 12184 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-10-17 18:32:13.025  INFO 12184 --- [main] c.e.a.AlfaBankTestingApplication         : Started AlfaBankTestingApplication in 7.158 seconds (JVM running for 8.232)
+2021-10-17 18:32:24.107  INFO 12184 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-17 18:32:29.509 DEBUG 12184 --- [http-nio-8080-exec-4] c.e.alfabanktesting.MainController       : Executing method compareCurrency(). Custom currency is RUB
+2021-10-17 18:32:31.591 DEBUG 12184 --- [http-nio-8080-exec-4] c.e.alfabanktesting.MainController       : Executing method getGifList(). RateHigher is 0
+2021-10-17 18:32:31.592 DEBUG 12184 --- [http-nio-8080-exec-4] c.e.alfabanktesting.MainController       : Executing method getAllGifsJson(). RateHigher is 0
+2021-10-17 18:32:31.922 DEBUG 12184 --- [http-nio-8080-exec-4] c.e.alfabanktesting.MainController       : Executing method getRandomGif(). Size is 10
+2021-10-17 18:32:39.098 DEBUG 12184 --- [http-nio-8080-exec-5] c.e.alfabanktesting.MainController       : Executing method compareCurrency(). Custom currency is JPY
+2021-10-17 18:32:40.073 DEBUG 12184 --- [http-nio-8080-exec-5] c.e.alfabanktesting.MainController       : Executing method getGifList(). RateHigher is 0
+2021-10-17 18:32:40.075 DEBUG 12184 --- [http-nio-8080-exec-5] c.e.alfabanktesting.MainController       : Executing method getAllGifsJson(). RateHigher is 0
+2021-10-17 18:32:40.306 DEBUG 12184 --- [http-nio-8080-exec-5] c.e.alfabanktesting.MainController       : Executing method getRandomGif(). Size is 10
+2021-10-17 18:42:23.378  INFO 11412 --- [main] c.e.a.AlfaBankTestingApplication         : Starting AlfaBankTestingApplication using Java 16.0.1 on tk-eco-pc with PID 11412 (D:\! JAVA\alfa-bank-testing\build\classes\java\main started by Тимур in D:\! JAVA\alfa-bank-testing)
+2021-10-17 18:42:23.385 DEBUG 11412 --- [main] c.e.a.AlfaBankTestingApplication         : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-17 18:42:23.387  INFO 11412 --- [main] c.e.a.AlfaBankTestingApplication         : No active profile set, falling back to default profiles: default
+2021-10-17 18:42:26.892  INFO 11412 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=b306841e-fb3a-312c-ba5f-a888d9979ee2
+2021-10-17 18:42:27.712  INFO 11412 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-10-17 18:42:27.733  INFO 11412 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-17 18:42:27.735  INFO 11412 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-17 18:42:28.029  INFO 11412 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-17 18:42:28.030  INFO 11412 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4456 ms
+2021-10-17 18:42:30.262  INFO 11412 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2021-10-17 18:42:30.392  INFO 11412 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-10-17 18:42:30.492  INFO 11412 --- [main] c.e.a.AlfaBankTestingApplication         : Started AlfaBankTestingApplication in 8.609 seconds (JVM running for 9.795)
+2021-10-17 18:43:18.452  INFO 11412 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-17 18:43:24.266 DEBUG 11412 --- [http-nio-8080-exec-4] c.e.alfabanktesting.MainController       : Executing method compareCurrency(). Custom currency is RUB
+2021-10-17 18:43:26.477 DEBUG 11412 --- [http-nio-8080-exec-4] c.e.alfabanktesting.MainController       : Executing method getGifList(). RateHigher is 0
+2021-10-17 18:43:26.478 DEBUG 11412 --- [http-nio-8080-exec-4] c.e.alfabanktesting.MainController       : Executing method getAllGifsJson(). RateHigher is 0
+2021-10-17 18:43:26.807 DEBUG 11412 --- [http-nio-8080-exec-4] c.e.alfabanktesting.MainController       : Executing method getRandomGif(). Size is 10
