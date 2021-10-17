@@ -1,6 +1,7 @@
 package com.example.alfabanktesting.services;
 
 import com.example.alfabanktesting.models.gif.AllGifsJson;
+import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 
 @FeignClient(name = "Gifs", url = "${giphy.api.url}")

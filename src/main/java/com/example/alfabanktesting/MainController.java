@@ -4,6 +4,8 @@ import com.example.alfabanktesting.models.gif.AllGifsJson;
 import com.example.alfabanktesting.models.gif.DataSectionGifsJson;
 import com.example.alfabanktesting.models.gif.Gif;
 import com.example.alfabanktesting.models.gif.ImagesSectionGifsJson;
+import com.example.alfabanktesting.services.GifService;
+import com.example.alfabanktesting.services.RateService;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
