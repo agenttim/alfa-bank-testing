@@ -6,6 +6,7 @@ import com.example.alfabanktesting.models.gif.Gif;
 import com.example.alfabanktesting.models.gif.ImagesSectionGifsJson;
 import com.example.alfabanktesting.services.GifService;
 import com.example.alfabanktesting.services.RateService;
+import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
@@ -18,16 +19,20 @@ import java.time.LocalDate;
 import java.util.List;
 import java.util.Map;
 import java.util.Random;
-import java.util.logging.Logger;
 import java.util.stream.Collectors;
 
 @Controller
 @EnableAutoConfiguration
 public class MainController {
-    private static final Logger LOGGER = LoggerFactory.getLogger(MainController.class);
+    private static final Logger LOGGER = (Logger) LoggerFactory.getLogger(MainController.class);
     public static final LocalDate YESTERDAY = LocalDate.now().minusDays(1L);
     private final RateService rateService;
     private final GifService gifService;
+
+    public MainController(RateService rateService, GifService gifService) {
+        this.rateService = rateService;
+        this.gifService = gifService;
+    }
 
     @GetMapping("/greeting")
     public String greeting(@RequestParam(name="name", required=false, defaultValue="World") String name, Model model) {
@@ -35,7 +40,6 @@ public class MainController {
         return "greeting";
     }
 
-    //    Example request: "http://localhost:8080/compare/USD"
     @RequestMapping(value = "/compare/{custom}", method = RequestMethod.GET)
     public String compareCurrency(@Value("${rate.base}") String baseCurrency,
                                   @PathVariable String custom) {
@@ -54,7 +58,6 @@ public class MainController {
         return "redirect:" + gifList.get(getRandomGif(gifList.size()));
     }
 
-    //    get a list with links to all the GIFs
     public List<Gif> getGifList(int rateHigher) {
         LOGGER.debug("Executing method getGifList(). RateHigher is " + rateHigher);
         return getAllGifsJson(rateHigher).getMainData()
@@ -62,7 +65,6 @@ public class MainController {
                 .stream().map(ImagesSectionGifsJson::getGif).collect(Collectors.toList());
     }
 
-    //    get a page in JSON format depending on the exchange rate
     public AllGifsJson getAllGifsJson(int rateHigher) {
         LOGGER.debug("Executing method getAllGifsJson(). RateHigher is " + rateHigher);
         return rateHigher > 0 ? gifService.getPositiveGif()
@@ -70,7 +72,6 @@ public class MainController {
                 : gifService.getEqualGif();
     }
 
-    //    random selection of gifs from the general list
     public int getRandomGif(int size) {
         LOGGER.debug("Executing method getRandomGif(). Size is " + size);
         return new Random().nextInt(size);
