@@ -8,7 +8,7 @@
 Запуск:
 
 git clone https://github.com/agenttim/alfa-bank-testing.git </br>
-cd exchange-rates </br>
+cd alfa-bank-testing </br>
 gradle clean </br>
 gradle build </br>
 cd build/libs </br>

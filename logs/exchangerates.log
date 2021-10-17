@@ -435,3 +435,38 @@ Identify and stop the process that's listening on port 8080 or configure this ap
 2021-10-17 18:43:26.477 DEBUG 11412 --- [http-nio-8080-exec-4] c.e.alfabanktesting.MainController       : Executing method getGifList(). RateHigher is 0
 2021-10-17 18:43:26.478 DEBUG 11412 --- [http-nio-8080-exec-4] c.e.alfabanktesting.MainController       : Executing method getAllGifsJson(). RateHigher is 0
 2021-10-17 18:43:26.807 DEBUG 11412 --- [http-nio-8080-exec-4] c.e.alfabanktesting.MainController       : Executing method getRandomGif(). Size is 10
+2021-10-17 18:45:40.799  INFO 13604 --- [main] c.e.a.AlfaBankTestingApplication         : Starting AlfaBankTestingApplication using Java 16.0.1 on tk-eco-pc with PID 13604 (D:\! JAVA\alfa-bank-testing\build\classes\java\main started by Тимур in D:\! JAVA\alfa-bank-testing)
+2021-10-17 18:45:40.806 DEBUG 13604 --- [main] c.e.a.AlfaBankTestingApplication         : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-17 18:45:40.807  INFO 13604 --- [main] c.e.a.AlfaBankTestingApplication         : No active profile set, falling back to default profiles: default
+2021-10-17 18:45:43.259  INFO 13604 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=b306841e-fb3a-312c-ba5f-a888d9979ee2
+2021-10-17 18:45:44.120  INFO 13604 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-10-17 18:45:44.137  INFO 13604 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-17 18:45:44.138  INFO 13604 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-17 18:45:44.401  INFO 13604 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-17 18:45:44.402  INFO 13604 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3390 ms
+2021-10-17 18:45:46.318  INFO 13604 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2021-10-17 18:45:46.449  INFO 13604 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-10-17 18:45:46.580  INFO 13604 --- [main] c.e.a.AlfaBankTestingApplication         : Started AlfaBankTestingApplication in 6.788 seconds (JVM running for 7.671)
+2021-10-17 18:46:21.539  INFO 13604 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-17 18:46:26.433 DEBUG 13604 --- [http-nio-8080-exec-2] c.e.alfabanktesting.MainController       : Executing method compareCurrency(). Custom currency is RUB
+2021-10-17 18:46:28.069 DEBUG 13604 --- [http-nio-8080-exec-2] c.e.alfabanktesting.MainController       : Executing method getGifList(). RateHigher is 0
+2021-10-17 18:46:28.069 DEBUG 13604 --- [http-nio-8080-exec-2] c.e.alfabanktesting.MainController       : Executing method getAllGifsJson(). RateHigher is 0
+2021-10-17 18:46:28.409 DEBUG 13604 --- [http-nio-8080-exec-2] c.e.alfabanktesting.MainController       : Executing method getRandomGif(). Size is 10
+2021-10-17 18:47:22.475  INFO 14216 --- [Test worker] c.e.a.AlfaBankTestingApplicationTests    : Starting AlfaBankTestingApplicationTests using Java 16.0.1 on tk-eco-pc with PID 14216 (started by Тимур in D:\! JAVA\alfa-bank-testing)
+2021-10-17 18:47:22.477 DEBUG 14216 --- [Test worker] c.e.a.AlfaBankTestingApplicationTests    : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-17 18:47:22.479  INFO 14216 --- [Test worker] c.e.a.AlfaBankTestingApplicationTests    : No active profile set, falling back to default profiles: default
+2021-10-17 18:47:25.071  INFO 14216 --- [Test worker] o.s.cloud.context.scope.GenericScope     : BeanFactory id=be11251d-ebfb-3e5b-aec2-b2f839896ce3
+2021-10-17 18:47:28.446  INFO 14216 --- [Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2021-10-17 18:47:28.572  INFO 14216 --- [Test worker] c.e.a.AlfaBankTestingApplicationTests    : Started AlfaBankTestingApplicationTests in 6.879 seconds (JVM running for 9.523)
+2021-10-17 18:51:37.987  INFO 14160 --- [Test worker] c.e.a.AlfaBankTestingApplicationTests    : Starting AlfaBankTestingApplicationTests using Java 16.0.1 on tk-eco-pc with PID 14160 (started by Тимур in D:\! JAVA\alfa-bank-testing)
+2021-10-17 18:51:37.989 DEBUG 14160 --- [Test worker] c.e.a.AlfaBankTestingApplicationTests    : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-17 18:51:37.991  INFO 14160 --- [Test worker] c.e.a.AlfaBankTestingApplicationTests    : No active profile set, falling back to default profiles: default
+2021-10-17 18:51:40.258  INFO 14160 --- [Test worker] o.s.cloud.context.scope.GenericScope     : BeanFactory id=be11251d-ebfb-3e5b-aec2-b2f839896ce3
+2021-10-17 18:51:43.119  INFO 14160 --- [Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2021-10-17 18:51:43.212  INFO 14160 --- [Test worker] c.e.a.AlfaBankTestingApplicationTests    : Started AlfaBankTestingApplicationTests in 5.979 seconds (JVM running for 8.028)
+2021-10-17 18:51:59.624  INFO 13492 --- [Test worker] c.e.a.AlfaBankTestingApplicationTests    : Starting AlfaBankTestingApplicationTests using Java 16.0.1 on tk-eco-pc with PID 13492 (started by Тимур in D:\! JAVA\alfa-bank-testing)
+2021-10-17 18:51:59.629 DEBUG 13492 --- [Test worker] c.e.a.AlfaBankTestingApplicationTests    : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-17 18:51:59.630  INFO 13492 --- [Test worker] c.e.a.AlfaBankTestingApplicationTests    : No active profile set, falling back to default profiles: default
+2021-10-17 18:52:01.902  INFO 13492 --- [Test worker] o.s.cloud.context.scope.GenericScope     : BeanFactory id=be11251d-ebfb-3e5b-aec2-b2f839896ce3
+2021-10-17 18:52:04.807  INFO 13492 --- [Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2021-10-17 18:52:04.888  INFO 13492 --- [Test worker] c.e.a.AlfaBankTestingApplicationTests    : Started AlfaBankTestingApplicationTests in 5.873 seconds (JVM running for 7.886)
