@@ -15,12 +15,13 @@ repositories {
 }
 
 ext {
-	set('springCloudVersion', 'Hoxton.SR5')
+	set('springBootAdminVersion', "2.3.1")
+	set('springCloudVersion', "2020.0.1")
+	set('testcontainersVersion', "1.15.1")
 }
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter'
-	implementation 'org.projectlombok:lombok:1.18.18'
 	implementation 'org.projectlombok:lombok:1.18.18'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
@@ -37,6 +38,8 @@ dependencies {
 
 dependencyManagement {
 	imports {
+		mavenBom "org.testcontainers:testcontainers-bom:${testcontainersVersion}"
+		mavenBom "de.codecentric:spring-boot-admin-dependencies:${springBootAdminVersion}"
 		mavenBom "org.springframework.cloud:spring-cloud-dependencies:${springCloudVersion}"
 	}
 }
