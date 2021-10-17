@@ -3,6 +3,7 @@ plugins {
 	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
 	id 'java'
 	id 'io.freefair.lombok' version '5.0.0'
+	id 'application'
 }
 
 group = 'com.example'
@@ -29,6 +30,9 @@ dependencies {
 	testImplementation('org.springframework.boot:spring-boot-starter-test') {
 		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
 	}
+	testImplementation 'org.springframework.cloud:spring-cloud-starter-contract-stub-runner'
+
+
 	}
 
 dependencyManagement {
