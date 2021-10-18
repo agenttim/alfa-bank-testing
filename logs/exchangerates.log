@@ -530,3 +530,28 @@ java.lang.ArithmeticException: Non-terminating decimal expansion; no exact repre
 2021-10-18 15:06:29.325 DEBUG 14988 --- [Test worker] c.e.alfabanktesting.MainController       : Executing method getAllGifsJson(). RateHigher is 1
 2021-10-18 15:06:29.654 DEBUG 14988 --- [Test worker] c.e.alfabanktesting.MainController       : Executing method getRandomGif(). Size is 10
 2021-10-18 15:06:29.712 DEBUG 14988 --- [Test worker] c.e.alfabanktesting.MainController       : Executing method getRandomGif(). Size is 10
+2021-10-18 15:32:03.040  INFO 10404 --- [main] c.e.a.AlfaBankTestingApplication         : Starting AlfaBankTestingApplication using Java 16.0.1 on tk-eco-pc with PID 10404 (D:\! JAVA\alfa-bank-testing\build\classes\java\main started by Тимур in D:\! JAVA\alfa-bank-testing)
+2021-10-18 15:32:03.052 DEBUG 10404 --- [main] c.e.a.AlfaBankTestingApplication         : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-18 15:32:03.053  INFO 10404 --- [main] c.e.a.AlfaBankTestingApplication         : No active profile set, falling back to default profiles: default
+2021-10-18 15:32:05.732  INFO 10404 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=b306841e-fb3a-312c-ba5f-a888d9979ee2
+2021-10-18 15:32:06.692  INFO 10404 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-10-18 15:32:06.711  INFO 10404 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-18 15:32:06.712  INFO 10404 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-18 15:32:07.019  INFO 10404 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-18 15:32:07.020  INFO 10404 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3813 ms
+2021-10-18 15:32:09.006  INFO 10404 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2021-10-18 15:32:09.173  INFO 10404 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-10-18 15:32:09.282  INFO 10404 --- [main] c.e.a.AlfaBankTestingApplication         : Started AlfaBankTestingApplication in 7.182 seconds (JVM running for 28.91)
+2021-10-18 15:32:20.364  INFO 10404 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-18 15:32:28.088 DEBUG 10404 --- [http-nio-8080-exec-4] c.e.alfabanktesting.MainController       : Executing method compareCurrency(). Custom currency is JPY
+2021-10-18 15:32:30.102 DEBUG 10404 --- [http-nio-8080-exec-4] c.e.alfabanktesting.MainController       : Executing method getGifList(). RateHigher is 1
+2021-10-18 15:32:30.104 DEBUG 10404 --- [http-nio-8080-exec-4] c.e.alfabanktesting.MainController       : Executing method getAllGifsJson(). RateHigher is 1
+2021-10-18 15:32:30.417 DEBUG 10404 --- [http-nio-8080-exec-4] c.e.alfabanktesting.MainController       : Executing method getRandomGif(). Size is 10
+2021-10-18 15:32:39.581 DEBUG 10404 --- [http-nio-8080-exec-7] c.e.alfabanktesting.MainController       : Executing method compareCurrency(). Custom currency is ISK
+2021-10-18 15:32:40.248 DEBUG 10404 --- [http-nio-8080-exec-7] c.e.alfabanktesting.MainController       : Executing method getGifList(). RateHigher is -1
+2021-10-18 15:32:40.249 DEBUG 10404 --- [http-nio-8080-exec-7] c.e.alfabanktesting.MainController       : Executing method getAllGifsJson(). RateHigher is -1
+2021-10-18 15:32:40.442 DEBUG 10404 --- [http-nio-8080-exec-7] c.e.alfabanktesting.MainController       : Executing method getRandomGif(). Size is 10
+2021-10-18 15:32:49.285 DEBUG 10404 --- [http-nio-8080-exec-10] c.e.alfabanktesting.MainController       : Executing method compareCurrency(). Custom currency is RUB
+2021-10-18 15:32:49.928 DEBUG 10404 --- [http-nio-8080-exec-10] c.e.alfabanktesting.MainController       : Executing method getGifList(). RateHigher is 0
+2021-10-18 15:32:49.929 DEBUG 10404 --- [http-nio-8080-exec-10] c.e.alfabanktesting.MainController       : Executing method getAllGifsJson(). RateHigher is 0
+2021-10-18 15:32:50.168 DEBUG 10404 --- [http-nio-8080-exec-10] c.e.alfabanktesting.MainController       : Executing method getRandomGif(). Size is 10
