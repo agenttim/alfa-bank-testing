@@ -1,5 +1,6 @@
-package com.example.alfabanktesting;
+package com.example.alfabanktesting.controller;
 
+import com.example.alfabanktesting.MainController;
 import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
